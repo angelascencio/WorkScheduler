@@ -46,3 +46,16 @@ saveButton.on("click", function(){
     localStorage.setItem("5pm", (text_hour5.val()));
     localStorage.setItem("6pm", (text_hour6.val()));
 })
+
+$("#hour-7").append(localStorage.getItem("7am"));
+$("#hour-8").append(localStorage.getItem("8am"));
+$("#hour-9").append(localStorage.getItem("9am"));
+$("#hour-10").append(localStorage.getItem("10am"));
+$("#hour-11").append(localStorage.getItem("11am"));
+$("#hour-12").append(localStorage.getItem("12pm"));
+$("#hour-1").append(localStorage.getItem("1pm"));
+$("#hour-2").append(localStorage.getItem("2pm"));
+$("#hour-3").append(localStorage.getItem("3pm"));
+$("#hour-4").append(localStorage.getItem("4pm"));
+$("#hour-5").append(localStorage.getItem("5pm"));
+$("#hour-6").append(localStorage.getItem("6pm"));
