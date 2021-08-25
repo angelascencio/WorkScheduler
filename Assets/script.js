@@ -1,9 +1,12 @@
 var liveTime = document.querySelector(".current-time");
 
 var timer = setInterval(function(){
-var currentTime = moment().format("dddd, MMM Do, YYYY, hh:mm:ss");
+
+var currentTime = moment().format("dddd, MMM Do, YYYY, h:mm:ss");
 liveTime.textContent = currentTime;
+
 }, 1000);
+
 
 var saveButton = $(".saveButton");
 
@@ -59,3 +62,104 @@ $("#hour-3").append(localStorage.getItem("3pm"));
 $("#hour-4").append(localStorage.getItem("4pm"));
 $("#hour-5").append(localStorage.getItem("5pm"));
 $("#hour-6").append(localStorage.getItem("6pm"));
+
+
+var timeTable = moment().format();
+console.log(timeTable);
+
+var hour7El = $("#hour-7");
+if (timeTable > 7){
+    hour7El.addClass("past");
+}else if (timeTable == 7){
+    hour7El.addClass("present");
+}else if(timeTable < 7){
+    hour7El.addClass("future");
+}
+var hour8El = $("#hour-8");
+if (timeTable > 8){
+    hour8El.addClass("past");
+}else if (timeTable == 8){
+    hour8El.addClass("present");
+}else if(timeTable < 8){
+    hour8El.addClass("future");
+}
+var hour9El = $("#hour-9");
+if (timeTable > 9){
+    hour9El.addClass("past");
+}else if (timeTable == 9){
+    hour9El.addClass("present");
+}else if(timeTable < 9){
+    hour9El.addClass("future");
+}
+var hour10El = $("#hour-10");
+if (timeTable > 10){
+    hour10El.addClass("past");
+}else if (timeTable == 10){
+    hour10El.addClass("present");
+}else if(timeTable < 10){
+    hour10El.addClass("future");
+}
+var hour11El = $("#hour-11");
+if (timeTable > 11){
+    hour11El.addClass("past");
+}else if (timeTable == 11){
+    hour11El.addClass("present");
+}else if(timeTable < 11){
+    hour11El.addClass("future");
+}
+var hour12El = $("#hour-12");
+if (timeTable > 12){
+    hour12El.addClass("past");
+}else if (timeTable == 12){
+    hour12El.addClass("present");
+}else if(timeTable < 12){
+    hour12El.addClass("future");
+}
+var hour1El = $("#hour-1");
+if (timeTable > 13){
+    hour1El.addClass("past");
+}else if (timeTable == 13){
+    hour1El.addClass("present");
+}else if(timeTable < 13){
+    hour1El.addClass("future");
+}
+var hour2El = $("#hour-2");
+if (timeTable > 14){
+    hour2El.addClass("past");
+}else if (timeTable == 14){
+    hour2El.addClass("present");
+}else if(timeTable < 14){
+    hour2El.addClass("future");
+}
+var hour3El = $("#hour-3");
+if (timeTable > 15){
+    hour3El.addClass("past");
+}else if (timeTable == 15){
+    hour3El.addClass("present");
+}else if(timeTable < 15){
+    hour3El.addClass("future");
+}
+var hour4El = $("#hour-4");
+if (timeTable > 16){
+    hour4El.addClass("past");
+}else if (timeTable == 16){
+    hour4El.addClass("present");
+}else if(timeTable < 16){
+    hour4El.addClass("future");
+}
+var hour5El = $("#hour-5");
+if (timeTable > 17){
+    hour5El.addClass("past");
+}else if (timeTable == 17){
+    hour5El.addClass("present");
+}else if(timeTable < 17){
+    hour5El.addClass("future");
+}
+var hour6El = $("#hour-6");
+if (timeTable> 18){
+    hour6El.addClass("past");
+}else if (timeTable == 18){
+    hour6El.addClass("present");
+}else if(timeTable < 18){
+    hour6El.addClass("future");
+}

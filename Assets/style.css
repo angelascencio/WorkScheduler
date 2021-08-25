@@ -1,4 +1,5 @@
 body {
+  background-color: grey;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
@@ -68,4 +69,11 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.current-time {
+  font-size: 20px;
+  color: #000000;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
