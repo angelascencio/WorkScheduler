@@ -8,31 +8,31 @@ liveTime.textContent = currentTime;
 }, 1000);
 
 
-var saveButton = $(".saveButton");
+var saveButton = $(".saveBtn");
 
-var text_hour7 = $("hour7");
+var text_hour7 = $("#hour-7");
 
-var text_hour8 = $("hour8");
+var text_hour8 = $("#hour-8");
 
-var text_hour9 = $("hour9");
+var text_hour9 = $("#hour-9");
 
-var text_hour10 = $("hour10");
+var text_hour10 = $("#hour-10");
 
-var text_hour11 = $("hour11");
+var text_hour11 = $("#hour-11");
 
-var text_hour12 = $("hour12");
+var text_hour12 = $("#hour-12");
 
-var text_hour1 = $("hour1");
+var text_hour1 = $("#hour-1");
 
-var text_hour2 = $("hour2");
+var text_hour2 = $("#hour-2");
 
-var text_hour3 = $("hour3");
+var text_hour3 = $("#hour-3");
 
-var text_hour4 = $("hour4");
+var text_hour4 = $("#hour-4");
 
-var text_hour5 = $("hour5");
+var text_hour5 = $("#hour-5");
 
-var text_hour6 = $("hour6");
+var text_hour6 = $("#hour-6");
 
 
 saveButton.on("click", function(){
